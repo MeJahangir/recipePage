@@ -38,6 +38,7 @@ p{
   margin-bottom: 15px;
   font-family: outfit;
   color: #5f574e;
+  font-size: 15px;
 }
 
 .prepTime{
@@ -59,17 +60,34 @@ h3{
 }
 
 li{
+  margin-left: 20px;
   font-family: outfit;
   color: #5f574e
-}
-
-li{
-  margin-left: 20px;
-  ;
 }
 
 hr{
   margin: 20px;
   border-color:  hwb(30 85% 11% / 0.3);
-  
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th{
+  border-bottom: 1px solid hwb(30 85% 11% / 0.3);
+  font-family: outfit;
+  color: #5f574e;
+  font-weight:400;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+td{
+  border-bottom: 1px solid hwb(30 85% 11% / 0.3);
+  font-family: outfit;
+  color: #854632;
+  font-weight: bold;
 }
