@@ -17,8 +17,8 @@ body{
 
 #omelette{
   border-radius: 10px;
-  max-width: 600px;
-  margin-left: 5px;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 h1{
