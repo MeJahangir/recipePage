@@ -135,3 +135,21 @@ td{
 .fat{
   border-bottom: 1px solid #ffffff;
 }
+
+/*media query*/
+@media screen and (max-width: 376px){
+  #omelette{
+    border-radius: 0%;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -130px;
+  }
+
+  h1{
+    margin-top: 60px;
+  }
+
+  body{
+    background-color: #ffffff;
+  }
+}
