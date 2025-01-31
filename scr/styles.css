@@ -64,6 +64,7 @@ h3{
 
 .prepTime li::marker{
   color: #7b284f;
+  font-size: 10px;
 }
 
 /*Ingredients*/
